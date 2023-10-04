@@ -19,8 +19,9 @@ const boxSchema=new mongoose.Schema({
         default:""
     },
     createdAt:{
+        default:Date.now,
         type:Date,
-        default:Date.now
+        
     }
 })
 
